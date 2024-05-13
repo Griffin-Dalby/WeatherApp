@@ -1,0 +1,54 @@
+.title-box {
+    padding-top: 1em;
+    background-color: #4f4f4f;
+
+    div {
+        padding-bottom: .5em;
+
+        span {
+            display: inline-block;
+            // width: auto;
+        }
+
+        &.flex {
+            .text-6xl {
+                -webkit-text-size-adjust: none;
+            }
+
+            .title-temp-line {
+                display: flex;
+                padding-left: .25em;
+
+                .d-flex {
+                    width: 2px;
+                    background-color: #fff;
+                }
+            }
+        }
+
+        .city-location {
+            padding-left: .25em;
+            padding-top: .5em;
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title-box {
+        div {
+            &.text-6xl {
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .title-box {
+        div {
+            &.text-6xl {
+                font-size: 5px;
+            }
+        }
+    }
+}

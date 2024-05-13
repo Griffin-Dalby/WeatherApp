@@ -1,0 +1,36 @@
+.title-box {
+  padding-top: 1em;
+  background-color: #4f4f4f;
+}
+.title-box div {
+  padding-bottom: 0.5em;
+}
+.title-box div span {
+  display: inline-block;
+}
+.title-box div.flex .text-6xl {
+  -webkit-text-size-adjust: none;
+}
+.title-box div.flex .title-temp-line {
+  display: flex;
+  padding-left: 0.25em;
+}
+.title-box div.flex .title-temp-line .d-flex {
+  width: 2px;
+  background-color: #fff;
+}
+.title-box div .city-location {
+  padding-left: 0.25em;
+  padding-top: 0.5em;
+}
+
+@media screen and (max-width: 500px) {
+  .title-box div.text-6xl {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .title-box div.text-6xl {
+    font-size: 5px;
+  }
+}/*# sourceMappingURL=layout.css.map */
