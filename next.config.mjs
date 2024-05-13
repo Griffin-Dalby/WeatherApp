@@ -6,7 +6,7 @@ const nextConfig = {
     distDir: 'dist',
     sassOptions: {
         includePaths: ['./src/app/styles']
-    }
+    },
 };
 
 export default nextConfig;
