@@ -22,17 +22,19 @@ export default function Home() {
             {/* <script src='@/app/js/layout.ts'></script> */}
 
             <div className="container-fluid title-box">
-            <h2 className="text-9xl text-white">Good Afternoon!</h2>
-            
-            <div className="flex title-temp-city">
-                <span className="text-6xl text-gray-300">It is currently 0°F at 0:00AM</span>
-                <div className="title-temp-line">
-                    <div className="d-flex">
-                        <div className="vr"></div>
+                <div className="row title-box-welcome">
+                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <h2 className="text-8xl text-white">Good Afternoon!</h2>
                     </div>
                 </div>
-                <span className="text-3xl text-gray-300 city-location">Loading... (City Location)</span>
-            </div>
+                <div className="row title-box-temp">
+                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                        <h3 className="text-5xl text-gray-300">Loading Quote...</h3>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6 title-box-temp-temp">
+                        <h4 className="text-6xl text-gray-300">00°F</h4>
+                    </div>
+                </div>
             </div>
   
           </body>

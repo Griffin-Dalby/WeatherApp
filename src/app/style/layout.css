@@ -1,24 +1,17 @@
 .title-box {
-  padding-top: 1em;
+  padding-top: 0.5em;
   background-color: #4f4f4f;
 }
-.title-box div span {
-  display: inline-block;
+.title-box .title-box-welcome h2 {
+  font-weight: 900;
 }
-.title-box div.flex .text-6xl {
-  -webkit-text-size-adjust: none;
+.title-box .title-box-temp h3 {
+  font-weight: 100;
+  padding-bottom: 0.5em;
 }
-.title-box div.flex .title-temp-line {
-  display: flex;
-  padding-left: 0.25em;
-}
-.title-box div.flex .title-temp-line .d-flex {
-  width: 2px;
-  background-color: #fff;
-}
-.title-box div .city-location {
-  padding-left: 0.25em;
-  padding-top: 0.5em;
+.title-box .title-box-temp .title-box-temp-temp h4 {
+  font-weight: 900;
+  float: right;
 }
 
 @media screen and (max-width: 500px) {
