@@ -7188,36 +7188,16 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
-.text-7xl {
-  font-size: 4.5rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 .text-8xl {
   font-size: 6rem;
-  line-height: 1;
-}
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-.text-6xl {
-  font-size: 3.75rem;
   line-height: 1;
 }
 .text-gray-300 {
@@ -7267,27 +7247,11 @@ body {
   padding-top: 0.5em;
   background-color: #4f4f4f;
 }
-.title-box .title-box-welcome h2 {
-  font-weight: 900;
-}
-.title-box .title-box-temp h3 {
-  font-weight: 100;
-  padding-bottom: 0.5em;
-}
-.title-box .title-box-temp .title-box-temp-temp h4 {
-  font-weight: 900;
+.title-box .row .right {
   float: right;
 }
-
-@media screen and (max-width: 500px) {
-  .title-box div.text-6xl {
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 420px) {
-  .title-box div.text-6xl {
-    font-size: 5px;
-  }
+.title-box .row .left {
+  float: left;
 }
 /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[13].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[13].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[13].use[5]!./src/app/style/global.scss ***!
@@ -7795,36 +7759,16 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
 }
-.text-7xl {
-  font-size: 4.5rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 .text-8xl {
   font-size: 6rem;
-  line-height: 1;
-}
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-.text-6xl {
-  font-size: 3.75rem;
   line-height: 1;
 }
 .text-gray-300 {
